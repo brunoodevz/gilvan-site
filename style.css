@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0827;
+  opacity: 0.8;
+  background-image: radial-gradient(circle, #838383 0.8px, transparent 0.8px);
+  background-size: 10px 25px;
+}
+
+h1,
+h2 {
+  font-family: "Agrave Pro", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titulo {
+  margin-top: 1rem;
+  text-decoration: underline;
+  color: wheat;
+}
+
+.subtitulo {
+  margin-bottom: 1rem;
+  color: #e4e4e4;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 2rem;
+
+  width: 100vh;
+
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  color: azure;
+  background-color: rgba(82, 82, 82, 0.323);
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+}
+
+.paragrafo {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: antiquewhite;
+}
+
+.div-imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+  background-color: rgba(25, 25, 25, 0.582);
+}
+
+.gilvan-foto {
+    border-radius: 4px;
+    border: 2px solid blueviolet;
+}
+
+.subtitulo-foto {
+    text-decoration: underline;
+}
